@@ -9,8 +9,8 @@ from sklearn.metrics import silhouette_score, davies_bouldin_score, calinski_har
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # Parâmetros para experimentação
-EPS_VALUES = [0.2, 0.3, 0.4, 0.5]
-MIN_PTS_VALUES = [3, 4, 5]
+EPS_VALUES = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7]
+MIN_PTS_VALUES = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 RANDOM_SEED = 42 # Para reprodutibilidade
 
 def euclidean(p1, p2):

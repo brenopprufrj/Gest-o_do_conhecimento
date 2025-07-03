@@ -9,7 +9,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # Parâmetros para experimentação
-K_VALUES = [2, 3, 4, 5, 6]
+K_VALUES = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 RANDOM_SEED = 42 # Para reprodutibilidade
 
 def initialize_centroids(X, k):

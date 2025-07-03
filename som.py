@@ -9,10 +9,10 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 # Parâmetros para experimentação
-GRID_SHAPES = [(2, 2), (3, 3), (4, 4)]
-SIGMA_VALUES = [0.5, 1.0, 1.5]
-LEARNING_RATES = [0.1, 0.5, 0.9]
-EPOCHS_VALUES = [50, 100, 200]
+GRID_SHAPES = [(2, 2), (3, 3), (4, 4), (5, 5), (6, 6)]
+SIGMA_VALUES = [0.2, 0.5, 1.0, 1.5, 2.0]
+LEARNING_RATES = [0.01, 0.1, 0.5, 0.9, 1.0]
+EPOCHS_VALUES = [50, 100, 200, 300, 500]
 RANDOM_SEED = 42 # Para reprodutibilidade
 
 def som_train(X, grid_shape=(3, 3), epochs=100, sigma=1.0, learning_rate=0.5):
